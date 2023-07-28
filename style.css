@@ -1,0 +1,423 @@
+  
+  body{
+            background-image: url(./background.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            width:100%;
+        }
+
+  /* Nav starts here */
+
+    nav{
+            display: flex;
+        }
+
+
+    .ul-1 {
+            font-size: large;
+            display: flex;
+            gap: 50px;
+            color: white;
+            margin-left: 100px;
+            margin-right: 250px;
+        }
+    .button-get {
+            height: 30px;
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            margin: 12px;
+            padding: 12px;
+            border: 2px solid black;
+            margin-left: auto; /* Push the button to the right */
+            margin-right: 200px;
+            background-color: skyblue;
+            cursor: pointer;
+        }
+
+        .button-get:hover{
+          background: linear-gradient(45deg ,rgb(151, 151, 227) ,rgb(142, 193, 142) ,rgb(202, 202, 131) , rgb(236, 167, 167) ) ;
+          border: 0.5mm ridge #5fd90d;
+          color: aliceblue;
+          
+        }
+
+    /* Nav ends here */
+
+    /* Main Section Starts here */
+
+    .container{
+    display: flex;
+    gap: 400px;
+}
+
+    .bt-2 {
+            display: flex;
+            height: 30px;
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 20px;
+            padding: 12px;
+            border: 2px solid black;
+            background-color:skyblue;
+            border-radius: 40px;
+            
+        }
+
+    .bt-3 {
+            display: flex;
+            height: 30px;
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            margin-top: 10px;
+            margin-left: 20px;
+            padding: 12px;
+            border: 2px solid black;
+            border-radius: 40px;
+           
+        }
+
+        .btns{
+            margin-left: 70px;
+        }
+
+        .text {
+            margin-top: 100px;
+            font-size: 50px;
+            margin-left: 90px;
+           
+            color: white;
+        }
+
+        .title{
+            font-size: 50px;
+            margin-left: 80px;
+            padding: 12px; 
+        }
+
+        .text >  p {
+            margin-left: 80px;
+            padding: 12px;
+            font-size: 20px;
+            
+        }
+
+
+        /* Form section*/
+
+      form-container { 
+      background-color: white;
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-top: 0;
+      color: black;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 8px;
+      color: black;
+    }
+
+    .form-container input[type="text"],
+    .form-container select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: skyblue;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .form-container button:hover {
+      background-color: #0c7dda;
+    }
+    
+    .box{
+    height: 80vh;
+    width: 45vh;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f3f3;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Form section ends here */
+
+/* Main Section Ends here */
+
+
+/* Css of section 2 */
+.container-2 {
+      margin-top: 300px;
+      margin-left: 200px;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+      gap: 20px;
+    }
+
+    .card {
+      flex: 1;
+      background-color: rgb(240, 244, 246);
+      border: 1px solid blue;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-heading {
+      display: flex;
+      font-size: 15px;
+      background-color: skyblue;
+      color: whitesmoke;
+      padding: 8px 0px;
+      margin-bottom: 10px;
+    }
+
+    .card ul {
+      margin-top: 8px;
+    }
+
+    .card ul li {
+      list-style-type: disc;
+    }
+
+    .logo{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      margin-left: 10px;
+    }
+
+    /* Section 2 ends here */
+
+  /* Section 3 Starts here */
+
+    .container-3 {
+      margin-top: 200px;
+      margin-left: 200px;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+
+    .card-2 {
+      flex: 1;
+      color: rgb(108, 105, 105);
+      background-color: rgb(240, 244, 246);
+      padding: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+   .rating {
+    color: orange;
+  }
+
+  .logo {
+    text-align: start;
+    margin-top: 10px;
+    height: auto;
+    max-width: 100px; /* Adjust the max-width as needed */
+  }
+
+  .card-2 > p{
+    font-size: small;
+  }
+
+
+    
+    /* Section 3 ends here */
+
+/* Section 4 Starts here */
+
+    .container-4 {
+      margin-top: 200px;
+      margin-left: 200px;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+
+    .card-3 {
+      flex: 1;
+      color: rgb(108, 105, 105);
+      background-color: aliceblue;
+      padding: 8px;
+      
+    }
+
+    .p4{
+       margin-left: 80px;
+       padding: 12px;
+       font-size: 20px;
+    }
+
+    .card-3 > h2 {
+      font-size: 18px;
+    }
+
+    .card-3 > p{
+      font-size: 14px;
+      justify-content: start;
+    }
+
+    .cards{
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      grid-gap: 10px;
+    }
+
+    
+    
+    /* Section 4 ends here */
+
+    /* Section 5 Starts here */
+
+    .container-5 {
+      margin-top: 300px;
+      margin-left: 200px;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    .Scards {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      gap: 20px;
+    }
+
+    .card-5 {
+      flex: 1;
+      background-color: rgb(240, 244, 246);
+      border: 1px solid cyan;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card-5-s {
+      margin-top: -40px;
+      flex: 1;
+      background-color: rgb(9, 9, 28);
+      color: white;
+      border: 1px solid cyan;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+
+    .card-heading1 {
+      text-align:center ;
+      font-size: large;
+    }
+
+    .p5{
+      text-align: center;
+    }
+
+    .h5{
+      font-size: 26px;
+      text-align: center;
+      color: rgb(49, 99, 208);
+    }
+
+    .but-5{
+      width: 100%;
+      padding: 10px;
+      background-color: rgb(49, 99, 208);
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    /* Section 5 ends here */
+
+    /* section 6 starts here */
+
+    .container-6{
+       background-color: rgb(19, 19, 62);
+       margin-top: 70px;
+       padding: 10px;
+       
+    }
+
+    .getflex{
+      margin-left: 150px;
+      display: flex;
+    }
+
+
+    .but-6{
+      margin-left: 250px;
+      margin-top: 60px;
+      display: flex;
+      height: 8vh;
+    }
+
+  /* Section 6 ends here */
+
+  /* Footer Section Starts here */
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    padding-left: 8px;
+    padding-top: 10;
+    align-items:start ;
+    justify-content: space-evenly;
+    position: relative;
+    row-gap: 20px;
+    
+  }
+
+  .brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+    
+
+
+    
+   
